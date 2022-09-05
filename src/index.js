@@ -1,1 +1,3 @@
-console.log('this is working')
+import { mainPage } from "./home";
+
+document.body.appendChild(mainPage());

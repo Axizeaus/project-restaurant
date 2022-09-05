@@ -1,4 +1,4 @@
-#content{
+.content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,6 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    /* border: 1px solid red; */
     font-family: cursive;
     background-color: rgb(250, 173, 7 );
 }
@@ -19,7 +18,8 @@ pre{
     font-size: 16px;
 }
 
-img{
-    width: 400px;
-    height: 400px;
+.img{
+    background: url('./pineapplePizza.png');
+    width: 300px;
+    height: 300px; 
 }
