@@ -19,7 +19,8 @@ pre{
 }
 
 .img{
-    background: url('./pineapplePizza.png');
+    background-image: url('./pineapplePizza.png');
+    background-size: 100%;
     width: 300px;
-    height: 300px; 
+    height: 220px; 
 }
