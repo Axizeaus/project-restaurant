@@ -1,0 +1,15 @@
+.pizza{
+    margin: 20px;
+    background-image: url('./pineapplePizza.png');
+    background-size: 100%;
+    width: 400px;
+    height: 294px; 
+}
+
+.tapwater{
+    margin: 20px;
+    background-image: url('./tapwater.jpg');
+    background-size: 100%;
+    width: 400px;
+    height: 268px;
+}
