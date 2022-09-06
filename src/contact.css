@@ -1,0 +1,17 @@
+.chefImg{
+    background-image: url('./chef.png');
+    background-size: 100%;
+    width: 400px;
+    height: 400px; 
+}
+
+.chefImg2{
+    background-image: url('./chef2.png');
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+body{
+    font: 42px;
+}

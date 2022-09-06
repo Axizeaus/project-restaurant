@@ -1,5 +1,6 @@
 import { loadPage } from "./load";
 import { contact } from "./contact";
+import { menu } from "./menu";
 
 window.onload = () => loadPage();
 
@@ -17,17 +18,18 @@ function contactPage() {
   return contactBtn;
 }
 
-function menu() {
-  const menu = document.createElement();
-  menu.innerHTML = 'menu'
-  return menu
+function menuPage() {
+  const menuBtn = document.createElement('button');
+  menuBtn.textContent = 'menu';
+  menuBtn.onclick = () => {clear();menu()};
+  return menuBtn;
 }
 
 function clear(){
     const content = document.getElementById('content');
-    console.log(content);
     content.innerHTML = '';
 }
 
 document.body.appendChild(home());
 document.body.appendChild(contactPage());
+document.body.appendChild(menuPage());
